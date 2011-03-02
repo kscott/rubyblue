@@ -16,6 +16,8 @@ let g:colors_name = "rubyblue"
 hi Normal		guifg=#C7D4E2       guibg=#162433
 hi NonText		guifg=#4A6480
 hi SpecialKey	guifg=#4A6480
+hi Function		guifg=white
+hi phpFunctions	guifg=#FFEE80		gui=bold,italic
 hi Comment		guifg=#237476		gui=italic
 hi Constant		guifg=#00CC00
 hi Identifier	guifg=white
@@ -41,9 +43,11 @@ hi Title		guifg=white         gui=bold
 hi StatusLineNC	gui=italic          guifg=#C0C0C0         guibg=#424242
 hi StatusLine	gui=bold            guifg=black           guibg=orange
 
-hi Label		guifg=yellow
-hi Operator		guifg=yellow        gui=bold
-hi Visual		guibg=#899797			gui=NONE
+hi Label		guifg=#F9BB00       gui=none
+hi Operator		guifg=#949C8B		gui=bold
+hi Delimiter	guifg=#BD8C17
+hi String		guifg=olivedrab
+hi Visual		guibg=#899797		gui=NONE
 
 hi DiffChange	guibg=darkGreen		guifg=black
 hi DiffText		guibg=olivedrab		guifg=black
